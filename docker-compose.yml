@@ -1,0 +1,11 @@
+version: '2'
+services:
+  client:
+    build:
+      context: ./client
+    entrypoint:
+      - /usr/bin/curl
+      - http://server:3000/
+  server:
+    build:
+      context: ./server
