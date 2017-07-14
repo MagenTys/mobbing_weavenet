@@ -4,7 +4,7 @@ const port = 3000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  response.end('Hello Mechanical Rock!')
+  response.end('Hello World!')
 }
 
 const server = http.createServer(requestHandler)
