@@ -1,0 +1,10 @@
+[{
+    "name": "dockerweavesample_server",
+    "command": [
+        "node index.js"
+    ],
+    "essential": true,
+    "memory": 300,
+    "cpu": 10,
+    "image": "613576916451.dkr.ecr.ap-southeast-2.amazonaws.com/dockerweavesample_server"
+}]
